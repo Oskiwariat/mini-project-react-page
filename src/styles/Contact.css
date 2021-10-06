@@ -20,14 +20,17 @@ div.contact {
   position: absolute;
   top: 50%;
   left: 45%;
-  border: 2px solid black;
+  border: 2px solid white;
   background-color: #fff;
-  padding: 40px 50px;
+  color: white;
+  background-color: black;
+  padding: 30px 40px;
   cursor: pointer;
   font-size: 20px;
   transition: 0.2s;
   text-transform: uppercase;
   letter-spacing: 5px;
+  border-radius: 20%;
 }
 
 .contact h1 {
@@ -53,6 +56,7 @@ div.contact {
   letter-spacing: 5px;
 }
 .contact button:hover {
-  color: yellow;
-  background-color: black;
+  color: royalblue;
+  background-color: white;
+  border: 2px solid royalblue;
 }
