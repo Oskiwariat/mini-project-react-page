@@ -1,0 +1,80 @@
+header.welcome {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+}
+header.welcome img {
+  position: absolute;
+  height: 100%;
+  opacity: 0.8;
+}
+
+header.welcome div.fundation {
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+  top: 25%;
+  left: 7%;
+  transition: 0.4s;
+}
+
+header.welcome div.fundation:hover {
+  padding: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+header.welcome div.fundation h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+header.welcome div.fundation p {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+header.welcome div.about {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  width: 900px;
+  padding: 30px;
+}
+
+header.welcome div.about h2 {
+  font-size: 70px;
+  color: black;
+  padding-bottom: 40px;
+}
+
+header.welcome div.about h2 strong {
+  color: orange;
+}
+
+header.welcome div.about button {
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(255, 94, 0);
+  padding: 15px 30px;
+  border-radius: 5%;
+  border-style: none;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+header.welcome div.about button:hover {
+  background-color: red;
+}
+
+header.welcome div.about h2 strong:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

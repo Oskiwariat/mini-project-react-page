@@ -1,0 +1,31 @@
+header.welcome nav.navigation {
+  position: absolute;
+  left: 4%;
+  top: 3%;
+  z-index: 1;
+  max-width: 70%;
+  overflow: hidden;
+}
+
+header.welcome nav.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+header.welcome nav.navigation ul li a {
+  display: block;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 25px;
+  color: black;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.3s;
+}
+
+header.welcome nav.navigation ul li a:hover {
+  transform: translateY(-10px);
+  letter-spacing: 10px;
+  border-bottom: 2px solid red;
+}

@@ -1,0 +1,57 @@
+div.donate {
+  position: relative;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+div.donate h1 {
+  position: absolute;
+  top: 27%;
+  left: 52%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+div.donate input {
+  position: absolute;
+  top: 40%;
+  left: 59.5%;
+  padding: 25px 50px;
+}
+
+div.donate button {
+  position: absolute;
+  top: 55%;
+  left: 61%;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: White;
+  transition: 0.3s;
+  border: 2px solid white;
+}
+
+div.donate button:hover {
+  background-color: white;
+  color: black;
+}
+
+div.donate h3 {
+  position: absolute;
+  top: 70%;
+  left: 51%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+div.donate img {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  width: 25%;
+  border: 3px solid white;
+}
