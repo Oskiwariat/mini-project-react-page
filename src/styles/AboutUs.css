@@ -1,12 +1,13 @@
 section.aboutus {
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(28.5deg, #b9f3bf 50%, white 50%);
+  background: linear-gradient(34.2deg, #b9f3bf 50%, white 50%);
 }
 
 div.info:hover {
   border-radius: 7%;
-  border: 10px solid royalblue;
+  border: 6px solid royalblue;
+  opacity: 1;
 }
 
 div.info {
@@ -21,6 +22,7 @@ div.info {
   border: 3px solid royalblue;
   transition: 0.4s;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 div.info h2 {
@@ -64,7 +66,6 @@ div.info button {
 div.info button:hover {
   background-color: white;
   color: royalblue;
-  letter-spacing: 6px;
 }
 
 div.info img {

@@ -1,94 +1,121 @@
-h1.special {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: black;
-  color: white;
+section.joinus {
+  min-height: 100vh;
+  position: relative;
+  background: linear-gradient(
+    -34.2deg,
+    rgb(252, 226, 230) 50%,
+    white 50%,
+    rgb(241, 185, 241) 50% 30%
+  );
+}
+
+section.joinus div.middlecontent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  height: 700px;
+  width: 1100px;
+  box-shadow: 25px 25px 25px gray;
+  border: 3px solid darkviolet;
+  opacity: 0.8;
+  transition: 0.4s;
+}
+
+section.joinus div.middlecontent:hover {
+  border-radius: 7%;
+  border: 6px solid darkviolet;
+  cursor: pointer;
+  opacity: 1;
+}
+
+section.joinus div.middlecontent img {
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  width: 40%;
+}
+
+section.joinus div.middlecontent nav {
+  position: absolute;
+  top: 8%;
+  left: 41%;
+  font-size: 20px;
+}
+
+section.joinus div.middlecontent nav ul {
+  display: flex;
+  list-style: none;
+}
+
+section.joinus div.middlecontent nav ul li {
+  list-style: none;
+}
+
+section.joinus div.middlecontent nav ul li a {
+  display: inline;
+  text-decoration: none;
+  padding: 20px;
+}
+
+section.joinus div.middlecontent nav ul li:nth-of-type(5) a {
+  background-color: darkviolet;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  margin-left: 25px;
+  font-weight: bold;
+  border-radius: 30%;
+  color: white;
+}
+
+section.joinus div.middlecontent nav ul li:nth-of-type(5) a:hover {
+  color: darkviolet;
+  background-color: white;
+  border: 2px solid darkviolet;
+}
+
+section.joinus div.middlecontent div.infosquare {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  color: darkviolet;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+section.joinus div.middlecontent div.infosquare h1 {
+  position: absolute;
+  width: 204px;
   font-size: 50px;
 }
-
-section.joinus {
-  min-height: 90.5vh;
-  background-color: rgb(78, 77, 77);
+section.joinus div.middlecontent div.infosquare p {
+  position: absolute;
+  margin-top: 10px;
+  line-height: 230%;
+  top: 37.5%;
+}
+section.joinus div.middlecontent div.infosquare button {
+  position: absolute;
+  top: 60%;
+  background-color: darkviolet;
+  font-weight: bold;
+  border-radius: 30%;
+  font-size: 20px;
+  padding: 20px;
+  border: 1px solid darkviolet;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
   color: white;
-  display: flex;
-  padding-top: 100px;
-  padding: 50px;
+  margin-top: 60px;
 }
 
-/* PIERWSZY DIV */
-section.joinus div.first {
-  background-color: #000;
-  text-align: center;
-  border: 4px solid white;
-}
-section.joinus div.first h1 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding-top: 50px;
-  font-size: 30px;
-  padding-bottom: 35px;
-}
-
-section.joinus div.first img {
-  padding-bottom: 35px;
-}
-
-section.joinus div.first p {
-  width: 50%;
-  margin: 0 auto;
-  font-size: 15px;
-}
-
-/* DRUGI DIV */
-section.joinus div.second {
-  background-color: #000;
-  border: 4px solid white;
-  margin-left: 30px;
-  margin-right: 30px;
-  text-align: center;
-}
-section.joinus div.second h1 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding-top: 50px;
-  font-size: 30px;
-}
-section.joinus div.second img {
-  width: 80%;
-  padding-bottom: 35px;
-  padding-top: 35px;
-}
-
-section.joinus div.second p {
-  width: 50%;
-  margin: 0 auto;
-  font-size: 15px;
-}
-
-/* TRZECI DIV */
-
-section.joinus div.third {
-  background-color: #000;
-  border: 4px solid white;
-  text-align: center;
-}
-section.joinus div.third h1 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding-top: 50px;
-  font-size: 30px;
-}
-section.joinus div.third img {
-  padding-bottom: 35px;
-  padding-top: 35px;
-  width: 54%;
-}
-
-section.joinus div.third p {
-  width: 50%;
-  font-size: 15px;
-  margin: 0 auto;
+section.joinus div.middlecontent div.infosquare button:hover {
+  color: darkviolet;
+  background-color: white;
+  border: 2px solid darkviolet;
 }
