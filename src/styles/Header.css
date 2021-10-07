@@ -1,13 +1,19 @@
+section.mainpage {
+  position: relative;
+  background: linear-gradient(90deg, rgb(212, 84, 84) 50%, black 60%);
+}
+
 header.welcome {
   position: relative;
   min-height: 100vh;
   min-width: 100vw;
   overflow: hidden;
+  opacity: 0.8;
 }
 header.welcome img {
   position: absolute;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 header.welcome div.fundation {
@@ -17,7 +23,7 @@ header.welcome div.fundation {
   border: 2px solid black;
   padding: 20px;
   top: 25%;
-  left: 7%;
+  left: 9%;
   transition: 0.4s;
 }
 
@@ -41,8 +47,8 @@ header.welcome div.fundation p {
 }
 header.welcome div.about {
   position: absolute;
-  top: 60%;
-  left: 5%;
+  top: 50%;
+  left: 7%;
   width: 900px;
   padding: 30px;
 }

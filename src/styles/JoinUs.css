@@ -40,7 +40,7 @@ section.joinus div.middlecontent img {
 section.joinus div.middlecontent nav {
   position: absolute;
   top: 8%;
-  left: 41%;
+  left: 39%;
   font-size: 20px;
 }
 
@@ -59,6 +59,26 @@ section.joinus div.middlecontent nav ul li a {
   padding: 20px;
 }
 
+section.joinus div.middlecontent nav ul li:nth-of-type(1) a:hover {
+  border-bottom: 2px solid darkviolet;
+  letter-spacing: 2px;
+}
+
+section.joinus div.middlecontent nav ul li:nth-of-type(2) a:hover {
+  border-bottom: 2px solid darkviolet;
+  letter-spacing: 2px;
+}
+
+section.joinus div.middlecontent nav ul li:nth-of-type(3) a:hover {
+  border-bottom: 2px solid darkviolet;
+  letter-spacing: 2px;
+}
+
+section.joinus div.middlecontent nav ul li:nth-of-type(4) a:hover {
+  border-bottom: 2px solid darkviolet;
+  letter-spacing: 2px;
+}
+
 section.joinus div.middlecontent nav ul li:nth-of-type(5) a {
   background-color: darkviolet;
   letter-spacing: 2px;
@@ -67,6 +87,7 @@ section.joinus div.middlecontent nav ul li:nth-of-type(5) a {
   font-weight: bold;
   border-radius: 30%;
   color: white;
+  transition: 0.2s;
 }
 
 section.joinus div.middlecontent nav ul li:nth-of-type(5) a:hover {
@@ -112,6 +133,7 @@ section.joinus div.middlecontent div.infosquare button {
   cursor: pointer;
   color: white;
   margin-top: 60px;
+  transition: 0.2s;
 }
 
 section.joinus div.middlecontent div.infosquare button:hover {
