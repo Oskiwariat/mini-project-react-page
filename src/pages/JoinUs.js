@@ -5,6 +5,10 @@ import "../styles/JoinUs.css";
 import image from "../images/happykids.jpg";
 
 const JoinUs = () => {
+  const handleStopRefresh = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <>
       <section className="joinus">
@@ -12,19 +16,29 @@ const JoinUs = () => {
           <nav>
             <ul>
               <li>
-                <a href="">Home</a>
+                <a onClick={handleStopRefresh} href="/">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="">About Us</a>
+                <a onClick={handleStopRefresh} href="/">
+                  About Us
+                </a>
               </li>
               <li>
-                <a href="">Work</a>
+                <a onClick={handleStopRefresh} href="/">
+                  Work
+                </a>
               </li>
               <li>
-                <a href="">Info</a>
+                <a onClick={handleStopRefresh} href="/">
+                  Info
+                </a>
               </li>
               <li>
-                <a href="">Get Started</a>
+                <a onClick={handleStopRefresh} href="/">
+                  Get Started
+                </a>
               </li>
             </ul>
           </nav>
