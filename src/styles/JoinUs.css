@@ -21,6 +21,7 @@ section.joinus div.middlecontent {
   border: 3px solid darkviolet;
   opacity: 0.8;
   transition: 0.4s;
+  animation: move 6s infinite;
 }
 
 section.joinus div.middlecontent:hover {

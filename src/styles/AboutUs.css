@@ -4,12 +4,6 @@ section.aboutus {
   background: linear-gradient(34.2deg, #b9f3bf 50%, white 50%);
 }
 
-div.info:hover {
-  border-radius: 7%;
-  border: 6px solid royalblue;
-  opacity: 1;
-}
-
 div.info {
   position: absolute;
   top: 50%;
@@ -23,6 +17,13 @@ div.info {
   transition: 0.4s;
   cursor: pointer;
   opacity: 0.8;
+  animation: move 6s infinite;
+}
+
+div.info:hover {
+  border-radius: 7%;
+  border: 6px solid royalblue;
+  opacity: 1;
 }
 
 div.info h2 {
@@ -73,4 +74,22 @@ div.info img {
   right: 2%;
   top: 25%;
   width: 50%;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  25% {
+    transform: translate(-45%, -50%);
+  }
+  50% {
+    transform: translate(-45%, -45%);
+  }
+  75% {
+    transform: translate(-50%, -45%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
 }
