@@ -24,7 +24,11 @@ class ContactPage extends React.Component {
   };
 
   handleSubmit = (e) => {
+    const { name, email, message } = this.state;
     e.preventDefault();
+    if (name === "" || email === "" || message === "") {
+      return alert("Masz źle wypełniony formularz!");
+    }
     this.setState({
       name: "",
       email: "",
